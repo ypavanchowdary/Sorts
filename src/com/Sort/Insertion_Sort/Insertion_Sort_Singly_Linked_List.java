@@ -1,7 +1,6 @@
 package com.Sort.Insertion_Sort;
 
-//Java program to sort link list
-//using insertion sort
+
 
 public class Insertion_Sort_Singly_Linked_List {
 
@@ -90,7 +89,7 @@ public class Insertion_Sort_Singly_Linked_List {
 	 // Driver program to test above functions
 	 public static void main(String[] args) 
 	 {
-	     LinkedlistIS list = new LinkedlistIS();
+		 Insertion_Sort_Singly_Linked_List list = new Insertion_Sort_Singly_Linked_List();
 	     list.push(5);
 	     list.push(20);
 	     list.push(4);
