@@ -6,6 +6,17 @@ import java.util.Arrays;
 
 //Recursive Java program for insertion sort
 
+/*
+ * 
+ * Recursion Idea.
+
+Base Case: If array size is 1 or smaller, return.
+Recursively sort first n-1 elements.
+Insert last element at its correct position in sorted array.
+
+ * 
+ */
+
 public class Recursive_Insertion_Sort {
 
 	// Recursive function to sort an array using
