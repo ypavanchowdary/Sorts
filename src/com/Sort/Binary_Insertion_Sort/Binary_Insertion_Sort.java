@@ -23,7 +23,7 @@ public class Binary_Insertion_Sort {
             while (left<right){
                 int middle=(left+right)/2;
                 if (temp>=a[middle])
-                    left=right+1;
+                	left = middle + 1;
                 else
                     right=middle;
             }
