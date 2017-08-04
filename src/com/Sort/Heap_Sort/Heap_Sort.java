@@ -69,7 +69,7 @@ public class Heap_Sort {
 	     int arr[] = {12, 11, 13, 5, 6, 7};
 	     int n = arr.length;
 
-	     HeapSort ob = new HeapSort();
+	     Heap_Sort ob = new Heap_Sort();
 	     ob.sort(arr);
 
 	     System.out.println("Sorted array is");
