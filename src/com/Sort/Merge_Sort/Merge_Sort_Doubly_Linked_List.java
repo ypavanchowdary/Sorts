@@ -88,13 +88,13 @@ public class Merge_Sort_Doubly_Linked_List {
 	 // Driver program to test above functions
 	 public static void main(String[] args) {
 
-	     LinkedList list = new LinkedList();
-	     list.head = new Node(10);
-	     list.head.next = new Node(30);
-	     list.head.next.next = new Node(3);
-	     list.head.next.next.next = new Node(4);
-	     list.head.next.next.next.next = new Node(20);
-	     list.head.next.next.next.next.next = new Node(5);
+		 Merge_Sort_Doubly_Linked_List list = new Merge_Sort_Doubly_Linked_List();
+	     Merge_Sort_Doubly_Linked_List.head = new Node(10);
+	     Merge_Sort_Doubly_Linked_List.head.next = new Node(30);
+	     Merge_Sort_Doubly_Linked_List.head.next.next = new Node(3);
+	     Merge_Sort_Doubly_Linked_List.head.next.next.next = new Node(4);
+	     Merge_Sort_Doubly_Linked_List.head.next.next.next.next = new Node(20);
+	     Merge_Sort_Doubly_Linked_List.head.next.next.next.next.next = new Node(5);
 	      
 	      
 	     Node node = null;
