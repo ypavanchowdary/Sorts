@@ -49,3 +49,13 @@ public class Binary_Insertion_Sort {
 }
 
 
+/*
+ * 
+ * 
+ * We can use binary search to reduce the number of comparisons in normal insertion sort. 
+ * Binary Insertion Sort find use binary search to find the proper location to insert the selected item at each iteration. 
+In normal insertion, sort it takes O(i) (at i'th iteration) in worst case. we can reduce it to O(log i) by using binary search.
+ * 
+ */
+
+
